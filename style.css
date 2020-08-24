@@ -1,0 +1,16 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: 	#14595c;
+    color: whitesmoke;
+}
+.stilo-titulo{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.picture{
+    border-radius: 50%;
+}
+
+.texto-centralizado{
+    text-align: center;
+}
