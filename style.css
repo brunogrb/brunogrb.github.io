@@ -3,8 +3,23 @@ body{
     background-color: 	#14595c;
     color: whitesmoke;
 }
-.stilo-titulo{
+
+.estilo-titulo{
+    display: block;
     font-family: 'Open Sans', sans-serif;
+}
+
+.article{
+    width: 800px;
+}
+
+nav li{
+    display: inline;
+    margin: 10px;
+}
+
+header a{
+    margin-left: 20px;
 }
 
 .picture{
