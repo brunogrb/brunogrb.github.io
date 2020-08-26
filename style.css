@@ -9,13 +9,21 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.subtitulo{
+    
+}
+
+.bloco{
+    display: inline-block;
+}
+
 .article{
     width: 800px;
 }
 
 nav li{
     display: inline;
-    margin: 10px;
+    margin-right: 10px;
 }
 
 header a{
@@ -23,9 +31,12 @@ header a{
 }
 
 .picture{
+    float: left;
     border-radius: 50%;
 }
 
 .texto-centralizado{
     text-align: center;
+}.subtitulo{
+    
 }
