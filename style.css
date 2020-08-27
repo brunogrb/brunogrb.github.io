@@ -1,7 +1,14 @@
 body{
     font-family: 'Roboto Slab', serif;
-    background-color: 	#14595c;
+    background-color: 	rgb(20, 89, 92);
     color: whitesmoke;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: rgb(20, 89, 92);
 }
 
 .estilo-titulo{
@@ -9,12 +16,8 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.subtitulo{
-    
-}
-
 .bloco{
-    display: inline-block;
+    display: inline;
 }
 
 .article{
@@ -22,8 +25,7 @@ body{
 }
 
 nav li{
-    display: inline;
-    margin-right: 10px;
+    display: inline-block;
 }
 
 header a{
@@ -32,11 +34,9 @@ header a{
 
 .picture{
     float: left;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 .texto-centralizado{
     text-align: center;
-}.subtitulo{
-    
 }
