@@ -5,9 +5,9 @@ body{
 }
 
 header{
-    position: fixed;
-    width: 100%;
+    position: absolute;
     top: 0px;
+    left: 0px;
     background-color: rgb(20, 89, 92);
 }
 
@@ -24,16 +24,23 @@ header{
     width: 800px;
 }
 
-nav li{
+.button{
+    border: none;
+    color: rgb(255, 248, 220);
+    text-align: center;
+    text-decoration: none;
     display: inline-block;
+    margin-left: 0px;
+    margin-right: 15px;
 }
 
-header a{
+header{
     margin-left: 20px;
 }
 
 .picture{
-    float: left;
+    display: inline;
+    margin-top: 110px;
     border-radius: 20%;
 }
 
